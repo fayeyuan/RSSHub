@@ -2058,6 +2058,9 @@
   "/fjksbm/:category?": [
     "nczitzk"
   ],
+  "/flashcat/blog": [
+    "chesha1"
+  ],
   "/flyert/creditcard/:bank": [
     "nicolaszf"
   ],
@@ -2129,6 +2132,9 @@
     "HenryQW",
     "xyqfer"
   ],
+  "/ftm/": [
+    "dzx-dzx"
+  ],
   "/fuliba/latest": [
     "shinemoon"
   ],
@@ -2154,6 +2160,9 @@
   ],
   "/fzmtr/announcements": [
     "HankChow"
+  ],
+  "/galxe/quest/:alias": [
+    "cxheng315"
   ],
   "/gameapps/": [
     "TonyRL"
@@ -2444,6 +2453,9 @@
   ],
   "/gov/jinan/healthcommission/medical_exam_notice": [
     "tzjyxb"
+  ],
+  "/gov/lswz/:category{.+}?": [
+    "nczitzk"
   ],
   "/gov/maoming/*": [],
   "/gov/maonan/:category": [
@@ -4121,7 +4133,7 @@
   "/newsmarket/:category?": [
     "nczitzk"
   ],
-  "/newyorker/:category/:subCategory?": [
+  "/newyorker/:category": [
     "EthanWng97"
   ],
   "/newzmz/:id?/:downLinkType?": [
@@ -5485,6 +5497,9 @@
     "DIYgod",
     "MeanZhang"
   ],
+  "/smzdm/product/:id": [
+    "chesha1"
+  ],
   "/smzdm/ranking/:rank_type/:rank_id/:hour": [
     "DIYgod"
   ],
@@ -6055,6 +6070,9 @@
   ],
   "/topys/:keyword?": [
     "nczitzk"
+  ],
+  "/towardsdatascience/latest": [
+    "mintyfrankie"
   ],
   "/tradingview/blog/:category{.+}?": [],
   "/tradingview/desktop": [
