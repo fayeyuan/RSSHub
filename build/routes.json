@@ -19203,7 +19203,7 @@
         "maintainers": [
           "syzq"
         ],
-        "description": "| 策略报告       | 宏观研究    | 券商晨报     | 行业研究 |\n  | -------------- | ----------- | ------------ | -------- |\n  | strategyreport | macresearch | brokerreport | industry |",
+        "description": "| 策略报告       | 宏观研究    | 券商晨报     | 行业研究 | 个股研报 |\n  | -------------- | ----------- | ------------ | -------- | -------- |\n  | strategyreport | macresearch | brokerreport | industry | stock    |",
         "location": "report/index.ts"
       },
       "/search/:keyword": {
@@ -22420,7 +22420,7 @@
     "routes": {
       "/quest/:alias": {
         "path": "/quest/:alias",
-        "name": "Galxe",
+        "name": "Quest",
         "url": "app.galxe.com",
         "maintainers": [
           "cxheng315"
@@ -27618,6 +27618,47 @@
     },
     "name": "Grub Street",
     "url": "grubstreet.com"
+  },
+  "gs": {
+    "routes": {
+      "/developer/blog": {
+        "path": "/developer/blog",
+        "categories": [
+          "blog"
+        ],
+        "example": "/gs/developer/blog",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "developer.gs.com/blog/posts"
+            ],
+            "target": "/developer/blog"
+          }
+        ],
+        "name": "Goldman Sachs Developer Blog",
+        "zh": {
+          "name": "高盛开发者博客"
+        },
+        "maintainers": [
+          "chesha1"
+        ],
+        "location": "developer/blog.ts"
+      }
+    },
+    "name": "Goldman Sachs",
+    "url": "goldmansachs.com",
+    "zh": {
+      "name": "高盛"
+    }
   },
   "guancha": {
     "routes": {
@@ -37228,6 +37269,73 @@
     },
     "name": "LINE",
     "url": "today.line.me"
+  },
+  "link3": {
+    "routes": {
+      "/events": {
+        "path": "/events",
+        "name": "Link3 Events",
+        "url": "link3.to",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/link3/events",
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "link3.to/events"
+            ],
+            "target": "/events"
+          }
+        ],
+        "location": "events.ts"
+      },
+      "/profile/:handle": {
+        "path": "/profile/:handle",
+        "name": "Link3 Profile",
+        "url": "link3.to",
+        "maintainers": [
+          "cxheng315"
+        ],
+        "example": "/link3/profile/synfutures_defi",
+        "parameters": {
+          "handle": "Profile handle"
+        },
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "link3.to/:handle"
+            ],
+            "target": "/:handle"
+          }
+        ],
+        "location": "profile.ts"
+      }
+    },
+    "name": "Link3",
+    "url": "link3.to"
   },
   "linkedin": {
     "routes": {
@@ -65792,6 +65900,41 @@
     "categories": [
       "blog"
     ]
+  },
+  "wchscu": {
+    "routes": {
+      "/recruit": {
+        "name": "招聘公告",
+        "path": "/recruit",
+        "example": "/wchscu/recruit",
+        "url": "www.wchscu.cn",
+        "maintainers": [
+          "ViggoC"
+        ],
+        "categories": [
+          "other"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.wchscu.cn/public/notice/recruit"
+            ]
+          }
+        ],
+        "location": "recruit.ts"
+      }
+    },
+    "name": "华西医院",
+    "url": "www.wchscu.cn"
   },
   "wdc": {
     "routes": {

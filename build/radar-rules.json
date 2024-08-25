@@ -6098,7 +6098,7 @@
     "_name": "Galxe",
     "app": [
       {
-        "title": "Galxe",
+        "title": "Quest",
         "docs": "https://docs.rsshub.app/routes/other",
         "source": [
           "/quest/:alias"
@@ -7705,6 +7705,19 @@
           "/"
         ],
         "target": "/grubstreet/"
+      }
+    ]
+  },
+  "gs.com": {
+    "_name": "Goldman Sachs",
+    "developer": [
+      {
+        "title": "Goldman Sachs Developer Blog",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/blog/posts"
+        ],
+        "target": "/gs/developer/blog"
       }
     ]
   },
@@ -10531,6 +10544,27 @@
           "/"
         ],
         "target": "/line/today/:edition?/:tab?"
+      }
+    ]
+  },
+  "link3.to": {
+    "_name": "Link3",
+    ".": [
+      {
+        "title": "Link3 Events",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/events"
+        ],
+        "target": "/link3/events"
+      },
+      {
+        "title": "Link3 Profile",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/:handle"
+        ],
+        "target": "/link3/:handle"
       }
     ]
   },
@@ -18697,6 +18731,19 @@
           "/"
         ],
         "target": "/watasuke/blog"
+      }
+    ]
+  },
+  "wchscu.cn": {
+    "_name": "华西医院",
+    "www": [
+      {
+        "title": "招聘公告",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/public/notice/recruit"
+        ],
+        "target": "/wchscu/recruit"
       }
     ]
   },
