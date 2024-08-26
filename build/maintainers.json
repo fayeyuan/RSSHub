@@ -5227,6 +5227,15 @@
   "/scut/yjs": [
     "shengmaosu"
   ],
+  "/scut/gzic/media": [
+    "gdzhht"
+  ],
+  "/scut/gzic/news": [
+    "gdzhht"
+  ],
+  "/scut/gzic/notice/:category?": [
+    "gdzhht"
+  ],
   "/scut/jwc/news": [
     "imkero"
   ],
@@ -6692,6 +6701,12 @@
   ],
   "/xiaozhuanlan/column/:id": [
     "TonyRL"
+  ],
+  "/xidian/cs/:category?": [
+    "ZiHao256"
+  ],
+  "/xidian/gr/:category?": [
+    "ZiHao256"
   ],
   "/xidian/jwc/:category?": [
     "ShadowySpirits"
